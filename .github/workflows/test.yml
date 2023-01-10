@@ -13,5 +13,5 @@ jobs:
         with:
           text: '测试'
           voice: '18'
-          content: 'out.mp3'
+          content: 'TTS-Mandarin/out.mp3'
       - run: ls -l 

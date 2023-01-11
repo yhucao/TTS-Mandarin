@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: yhucao/TTS-Mandarin@main
+      - uses: privapps/TTS-Mandarin@main
         with:
-          text: '测试'
+          text: '雄起'
           voice: '18'
           content: 'out.mp3'
-      - run: pwd 
+      - run: ls -l 
